@@ -26,6 +26,30 @@ Ainsi, la formulation variationnelle devient:
 \int_{\Omega} \nabla u\nabla\phi
 ++++
 
- 
+On pose les formes bilinéaire et linéaire suivante
+
+[stem]
+++++
+\begin{aligned}
+a(u,v)&=\int_{\Omega} \nabla u\nabla\phi\\
+l(v)&=\int_\Omega f\phi
+\end{aligned}
+++++
+
+Il est visible que la forme stem:[a(\cdot,\cdot)] est bilinéaire et symétrique.
+Le théorème de Lax-Milgamm nous dit que si stem:[a(\cdot,\cdot)] est continue et coercive et si stem:[l(\cdot)] est continue alors il existe une et unique solution sur stem:[H_0^1(\Omega)].
+
+* Pour la continuité de stem:[l(\cdot)], on a, par lethéorème de Cauchy :
+
+[stem]
+++++
+|l(v)|=
+\left|
+\int_\Omega f\phi
+\right|
+\geq \|f\|_{0,\Omega}\|\phi\|_{0,\Omega}
+++++
+
+Donc la forme linéaire stem:[l(\cdot)] est continue selon la norme de stem:[L^2(\Omega)]
 
 
