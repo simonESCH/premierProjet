@@ -5,7 +5,7 @@
 :toc: left
 
 Soit stem:[\Omega] un domaine régulier et ouvert de stem:[\mathbb{R}^2]. 
-On décompose sa frontière en trois partie stem:[\partial\Omega=\Gamma_{D}+\Gamma_{N}+\Gamma_{R}] qui ne s'intersecte pas.
+On décompose sa frontière en trois partie stem:[\partial\Omega=\Gamma_{D}\cup\Gamma_{N}\cup\Gamma_{R}] qui ne s'intersecte pas.
 Sur ce domaine, on pose l'équation diférenciel suivante:
 
 .equation du laplacien
