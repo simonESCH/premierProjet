@@ -1,0 +1,31 @@
+Dans le cas où tous la frontière de stem:[\omega] est sous la condition de Dirichlet(stem:[\partial\Omega=\Gamma_{D}]), l'equation différentiel devient :
+
+.sous la condition de Dirichlet
+[stem]
+++++
+\left\{
+\begin{aligned}
+-\Delta u=f & u\in \Omega; \\
+u=g_{D} & u\in \partial\Omega.
+\end{aligned}
+\right.
+++++
+
+Les fonctions tests seront pris dans l'espace stem:[H_0^1(\Omega)=\{H^1(v\in\Omega)|v|_{\partial\Omega}=0\}].
+Cet espace est bien défini et est un sous-espace hilbertien de stem:[H_0^1(\Omega)].
+En effet, il est facile de voir qu'il est stable par addition et multplication par un scalaire et il ne reste plus qu'a montrer qu'il est complet par la norme induite du produit scalaire. 
+La trace( ) est défini et continue. 
+Comme l'image réciproque d'un espace complet par fonction continue est complet, l'espace stem:[H_0^1(\Omega)], qui peut être vu comme l'image réciproque de l'ensemble complet stem:[\{0\}], est complet.
+Ainsi, la formulation variationnelle devient: 
+
+[stem]
+++++
+\int_\Omega f\phi=
+\int_{\partial\Omega} \frac{\partial u}{\partial n}\overbrace{\phi}{=0 sur \partial\Omega}+
+\int_{\Omega} \nabla u\nabla\phi=
+\int_{\Omega} \nabla u\nabla\phi
+++++
+
+ 
+
+
