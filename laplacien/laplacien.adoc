@@ -4,6 +4,7 @@
 :icons: font
 :toc: left
 
+
 Soit stem:[\Omega] un domaine régulier et ouvert de stem:[\mathbb{R}^2]. 
 On décompose sa frontière en trois partie stem:[\partial\Omega=\Gamma_{D}\cup\Gamma_{N}\cup\Gamma_{R}] qui ne s'intersecte pas.
 Sur ce domaine, on pose l'équation diférenciel suivante:
@@ -13,10 +14,10 @@ Sur ce domaine, on pose l'équation diférenciel suivante:
 ++++
 \left\{
 \begin{aligned}
--\Delta u=f & u\in \Omega; \\
-u=g_{D} & u\in \Gamma_{D};\\
-\frac{\partial u}{\partial n}=g_{N} & u\in \Gamma_{N};\\
-u=g_{R} & u\in \Gamma_{R}.\\
+-\Delta u=f &\quad u\in \Omega; \\
+u=g_{D} &\quad u\in \Gamma_{D};\\
+\frac{\partial u}{\partial n}=g_{N} &\quad u\in \Gamma_{N};\\
+u=g_{R} &\quad u\in \Gamma_{R}.\\
 \end{aligned}
 \right.
 ++++
@@ -40,7 +41,7 @@ On obtient alors la formule suivante :
 .formulation variationnelle
 [stem]
 ++++
-\int_{\partial\Omega} \frac{\partial u}{\partial n}\phi+
+-\int_{\partial\Omega} \frac{\partial u}{\partial n}\phi+
 \int_{\Omega} \nabla u\nabla\phi=
 \int_\Omega f\phi
 ++++
@@ -56,5 +57,10 @@ include::dirichlet.adoc[]
 
 == Condition de Neuman ou naturel
 
+include::neuman.adoc[]
+
 == Condition de Robin, Fourier ou Mixte
+
+include::robin.adoc[]
+
 

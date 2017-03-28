@@ -5,8 +5,8 @@ Dans le cas où tous la frontière de stem:[\omega] est sous la condition de Dir
 ++++
 \left\{
 \begin{aligned}
--\Delta u=f & u\in \Omega; \\
-u=g_{D} & u\in \partial\Omega.
+-\Delta u=f & \quad u\in \Omega; \\
+u=g_{D} &  \quad u\in\partial\Omega.
 \end{aligned}
 \right.
 ++++
@@ -21,7 +21,7 @@ Ainsi, la formulation variationnelle devient:
 [stem]
 ++++
 \int_\Omega f\phi=
-\int_{\partial\Omega} \frac{\partial u}{\partial n}\overbrace{\phi}{=0 sur \partial\Omega}+
+-\int_{\partial\Omega} \frac{\partial u}{\partial n}\overbrace{\phi}^{0 \text{ sur } \partial\Omega}+
 \int_{\Omega} \nabla u\nabla\phi=
 \int_{\Omega} \nabla u\nabla\phi
 ++++
