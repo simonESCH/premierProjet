@@ -52,4 +52,11 @@ Le théorème de Lax-Milgamm nous dit que si stem:[a(\cdot,\cdot)] est continue 
 
 Donc la forme linéaire stem:[l(\cdot)] est continue selon la norme de stem:[L^2(\Omega)]
 
+* Pour la continuité de stem:[a(\cdot,\cdot)], on a
+
+* Pour la coercivité de stem:[a(\cdot,\cdot)]
+
+Donc il existe une unique solution a la formulation faible.
+Cependant, la solution faible est-elle solution de la solution forte ?
+
 
