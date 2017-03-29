@@ -1,0 +1,36 @@
+Dans le cas où tous la frontière de stem:[\omega] est sous la condition de Mixte, Fourier ou Robin( stem:[\partial\Omega=\Gamma_{R}]), l'equation différentiel devient :
+
+
+.sous la condition de Robin
+[stem]
+++++
+\left\{
+\begin{aligned}
+-\Delta u=f &\quad u\in \Omega; \\
+au+\frac{\partial u}{\partial n}=g_{R} &\quad u\in \partial\Omega.\\
+\end{aligned}
+\right.
+++++
+
+
+
+.formulation variationnelleavec la condition de Robin
+[stem]
+++++
+\int_{\partial\Omega} au\phi
+\int_{\Omega} \nabla u\nabla\phi=
+\int_\Omega f\phi+
+\int_{\partial\Omega} g_R\phi
+++++
+
+
+
+
+
+
+
+
+
+
+
+

@@ -17,7 +17,7 @@ Sur ce domaine, on pose l'équation diférenciel suivante:
 -\Delta u=f &\quad u\in \Omega; \\
 u=g_{D} &\quad u\in \Gamma_{D};\\
 \frac{\partial u}{\partial n}=g_{N} &\quad u\in \Gamma_{N};\\
-u=g_{R} &\quad u\in \Gamma_{R}.\\
+au+\frac{\partial u}{\partial n}=g_{R} &\quad u\in \Gamma_{R}.\\
 \end{aligned}
 \right.
 ++++

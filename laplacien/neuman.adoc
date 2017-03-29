@@ -1,0 +1,34 @@
+Dans le cas où tous la frontière de stem:[\omega] est sous la condition de Neuman( stem:[\partial\Omega=\Gamma_{N}]), l'equation différentiel devient :
+
+.sous la condition de Robin
+[stem]
+++++
+\left\{
+\begin{aligned}
+-\Delta u=f &\quad u\in \Omega; \\
+\frac{\partial u}{\partial n}=g_{N} &\quad u\in \partial\Omega.\\
+\end{aligned}
+\right.
+++++
+
+Le problème en soit est mal posé.
+En effet, on remarque si la fonction stem:[u] est solution de l'équation, alors stem:[u+c] avec stem:[c] une constante.
+Pour parer a ce problème, on s'impose une condition sur stem:[u] en plus :
+
+[stem]
+++++
+\int_\Omega u(t)dt=0.
+++++
+
+En utilisant les conditions de Neuman au limite, la formulation variationnelle devient
+
+.formulation variationnelle avec la condition de Robin
+[stem]
+++++
+\int_{\Omega} \nabla u\nabla\phi=
+\int_\Omega f\phi+
+\int_{\partial\Omega} g_N\phi
+++++
+
+
+
