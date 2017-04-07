@@ -1,6 +1,6 @@
 Dans le cas où tous la frontière de stem:[\omega] est sous la condition de Neuman( stem:[\partial\Omega=\Gamma_{N}]), l'equation différentiel devient :
 
-.sous la condition de Robin
+.sous la condition de Neuman
 [stem]
 ++++
 \left\{
@@ -20,7 +20,19 @@ Pour parer a ce problème, on s'impose une condition sur stem:[u] en plus :
 \int_\Omega u(t)dt=0.
 ++++
 
-En utilisant les conditions de Neuman au limite, la formulation variationnelle devient
+On pose stem:[H_*^1(\Omega)=\{w\in H^1(\Omega)|\int w=0\}].
+Ce nouveau espace est un espace de Hilbert.
+En effet l'opérateur integrale sur stem:[\Omega] est continue selon la norme de stem:[L^2].
+
+[stem]
+++++
+|\int_\Omega u(t)dt|=
+|(u,1)_{0,\Omega}|\geq
+\|u\|_{0,\Omega}\times\|1\|_{0,\Omega}.
+++++
+
+
+En utilisant les conditions de Neuman au limite et en se placant dans l'espace stem:[H_*^1(\Omega)], la formulation variationnelle devient
 
 .formulation variationnelle avec la condition de Robin
 [stem]

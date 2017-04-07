@@ -46,7 +46,15 @@ On obtient alors la formule suivante :
 \int_\Omega f\phi
 ++++
 
+Remarques:
 
+* continuite stem:[L^2(\Omega)] => stem:[H^1(\Omega)]
+
+* symetrie et linearité/bilinéarite
+
+* inégalité Poincarré
+
+* autre inégalité Poincarré
 
 
 On va d'abord commencer par traiter les cas où il n'y a qu'une partie pour la frontière de stem:[\Omega]( les deux autres seront vides)
@@ -62,5 +70,10 @@ include::neuman.adoc[]
 == Condition de Robin, Fourier ou Mixte
 
 include::robin.adoc[]
+
+== toutes les conditions
+
+include::mixte.adoc[]
+ 
 
 
