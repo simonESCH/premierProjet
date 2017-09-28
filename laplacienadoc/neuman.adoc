@@ -1,0 +1,106 @@
+Dans le cas où tous la frontière de stem:[\omega] est sous la condition de Neuman( stem:[\partial\Omega=\Gamma_{N}]), l'equation différentiel devient :
+
+.sous la condition de Neuman
+[stem]
+++++
+\left\{
+\begin{aligned}
+-\Delta u=f &\quad u\in \Omega; \\
+\frac{\partial u}{\partial n}=g_{N} &\quad u\in \partial\Omega.\\
+\end{aligned}
+\right.
+++++
+
+Le problème en soit est mal posé.
+En effet, on remarque si la fonction stem:[u] est solution de l'équation, alors stem:[u+c] avec stem:[c] une constante.
+Pour parer a ce problème, on s'impose une condition sur stem:[u] en plus :
+
+[stem]
+++++
+\int_\Omega u(t)dt=0.
+++++
+
+On pose stem:[H_*^1(\Omega)=\{w\in H^1(\Omega)|\int w=0\}].
+Ce nouveau espace est un espace de Hilbert.
+En effet l'opérateur integrale sur stem:[\Omega] est continue selon la norme de stem:[L^2].
+
+[stem]
+++++
+|\int_\Omega u(t)dt|=
+|(u,1)_{(0,\Omega)}|\leq
+\|u\|_{(0,\Omega)}\times\|1\|_{(0,\Omega)}.
+++++
+
+
+En utilisant les conditions de Neuman au limite et en se placant dans l'espace stem:[H_*^1(\Omega)], la formulation variationnelle devient
+
+.formulation variationnelle avec la condition de Robin
+[stem]
+++++
+\int_{\Omega} \nabla u\nabla\phi=
+\int_\Omega f\phi+
+\int_{\partial\Omega} g_N\phi
+++++
+
+
+On commence avec les paramètres suivants :
+
+[stem]
+++++
+\left\{
+\begin{aligned}
+f =& x^2+y^2; \\
+g_{N} =& 
+2x\cdot \textbf{n}_x+2y\cdot \textbf{n}_y.
+\end{aligned}
+\right.
+++++
+
+
+Le graphe est :
+
+
+
+Cette exemple doit donné une erreur de l'ordre de l'erreur machine puisque l'espace d'approximation est stem:[\mathbb{P}_2]
+( si on a une erreur plus grosse alors il y a un probleme)
+
+
+
+
+Ensuite, On fait avec les paramètres suivants :
+
+[stem]
+++++
+\left\{
+\begin{aligned}
+f =& x^3+y^3; \\
+g_{N} =& 
+3x^2\cdot \textbf{n}_x+3y^2\cdot \textbf{n}_y.
+\end{aligned}
+\right.
+++++
+
+
+le graphe donne:
+
+On trouve les erreurs suivantes:
+
+
+
+
+
+Ensuite, On fait avec les paramètres suivants :
+
+[stem]
+++++
+\left\{
+\begin{aligned}
+f =& x^3+y^3; \\
+g_{D} =& 
+3x^2\cdot \textbf{n}_x+3y^2\cdot \textbf{n}_y.
+\end{aligned}
+\right.
+++++
+
+On trouve les erreurs suivantes:
+
