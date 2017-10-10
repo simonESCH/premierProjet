@@ -1,4 +1,4 @@
 = premierProjet
 
 
-include::laplacian/laplacian.adoc[]
+include::laplacien/laplacien.adoc[]
